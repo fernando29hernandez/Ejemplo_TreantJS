@@ -5,8 +5,7 @@
 Los archivos importantes son:.
 
  - Index.html 
- - ejemplo.js
- - 
+ - ejemplo.js 
 ## Index.html
 
     <script src="ejemplo.js"></script>
@@ -28,8 +27,8 @@ Esta es la variable encargada de armar el árbol por lo tanto es la única que d
 	 1. chart
 	 2. nodeStructure
 ### Chart 
-Es la parte que se encargara de configurar todas las características que poseerá nuestro árbol.
-Pueden modificar a su gusto esta parte yo para este ejemplo deje esta configuración.
+- Es la parte que se encargara de configurar todas las características que poseerá nuestro árbol.
+- Pueden modificar a su gusto esta parte yo para este ejemplo deje esta configuración.
 
     chart: {
             container: "#basic-example",# basicamente es el id del arbol
