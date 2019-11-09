@@ -86,7 +86,8 @@ Ejemplo.
                             }
                         }
                     ]
-                }
+                   }
+	]
 
 Como se puede ver la estructura de children es la siguiente.
    
