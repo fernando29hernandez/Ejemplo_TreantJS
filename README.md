@@ -33,23 +33,23 @@ Esta es la variable encargada de armar el árbol por lo tanto es la única que d
     
             
             chart: {
-            container: "#basic-example",# basicamente es el id del arbol
-	    connectors: {
-                type: 'bCurve' #tipo de uniones en este caso curveadas
-            },
-            animateOnInit: true, # tendra animación
-            
-            node: {
-                collapsable: true, #se podra esconder
-                HTMLclass: 'nodeExample1' #nombre de los nodos por defecto
-            },
-            animation: {
-                nodeAnimation: "easeOutBounce", #tipo de animación nodo
-                nodeSpeed: 700, #velocidad de animación nodo
-                connectorsAnimation: "bounce", # tipo animación enlace
-                connectorsSpeed: 700 # velocidad animación enlace
-            }
-        }
+		    container: "#basic-example",# basicamente es el id del arbol
+		    connectors: {
+			type: 'bCurve' #tipo de uniones en este caso curveadas
+		    },
+		    animateOnInit: true, # tendra animación
+
+		    node: {
+			collapsable: true, #se podra esconder
+			HTMLclass: 'nodeExample1' #nombre de los nodos por defecto
+		    },
+		    animation: {
+			nodeAnimation: "easeOutBounce", #tipo de animación nodo
+			nodeSpeed: 700, #velocidad de animación nodo
+			connectorsAnimation: "bounce", # tipo animación enlace
+			connectorsSpeed: 700 # velocidad animación enlace
+		    }
+	    }
 En cierta manera cuando ustedes generen este archivo js desde java  este texto ira quemado ya que tiene que estar si o si presente para que el grafo funcione.
 
 ### NodeStructure
