@@ -30,10 +30,11 @@ Esta es la variable encargada de armar el árbol por lo tanto es la única que d
 - Es la parte que se encargara de configurar todas las características que poseerá nuestro árbol.
 - Pueden modificar a su gusto esta parte yo para este ejemplo deje esta configuración.
 
-    chart: {
-            container: "#basic-example",# basicamente es el id del arbol
+    
             
-            connectors: {
+            chart: {
+            container: "#basic-example",# basicamente es el id del arbol
+	    connectors: {
                 type: 'bCurve' #tipo de uniones en este caso curveadas
             },
             animateOnInit: true, # tendra animación
